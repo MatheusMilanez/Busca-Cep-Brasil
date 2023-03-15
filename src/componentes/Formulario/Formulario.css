@@ -89,4 +89,8 @@
         width: 250px;
         height: 200px;
     }
+
+    .formularioInput{
+        font-size: 20px;
+    }
   }
