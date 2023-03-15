@@ -14,7 +14,6 @@
     align-items: center;
     flex-wrap: wrap;
     background-color:#FFFFFF;
-    max-width: 100%;
     padding: 20px;
 
 }
@@ -67,3 +66,27 @@
     color: black;
 }
 
+
+
+
+/*Resonsividade*/
+
+
+
+@media screen and (max-width:820px){
+    .titulo{
+      font-size: 25px;
+      
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .formularioCep{
+        width: 250px;
+        height: 200px;
+    }
+  }
